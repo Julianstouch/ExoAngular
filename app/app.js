@@ -1,5 +1,5 @@
-(function () {
-	'use strict';
+import 'angular';
+import './ors-star/ors-star.js';
 
 	var app = angular.module('main', ['ors-star']);
 
@@ -23,5 +23,3 @@
 			templateUrl: 'tmpl/ors-footer.html'
 		};
 	});
-
-})();
