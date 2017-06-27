@@ -1,3 +1,5 @@
+import 'angular/angular-csp.css';
+import './style.css';
 import 'angular';
 import './ors-star/ors-star.js';
 
