@@ -50,7 +50,7 @@ module.exports = {
 				loader: 'file-loader',
 				options: {
 					name: '[path][name].[ext]',
-					publicPath: ''
+					publicPath: './wpk/',
 				}
 			}]
 		}, {
@@ -62,7 +62,7 @@ module.exports = {
 				loader: 'url-loader',
 				options: {
 					name: '[name].[ext]',
-					// publicPath: './wpk/',
+					publicPath: './wpk/',
 					limit: 10000,
 					mimetype: 'application/font-woff'
 				}
